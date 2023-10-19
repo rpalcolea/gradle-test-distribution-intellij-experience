@@ -1,0 +1,11 @@
+
+plugins {
+    id "com.gradle.enterprise" version "3.15.1"
+}
+
+gradleEnterprise {
+    server = "https://something.com"
+}
+
+rootProject.name = 'gradle-test-demo-system-exit'
+include('lib')
